@@ -12,7 +12,6 @@ n = int(input("Введите количество грядок: "))
 print("Введите количество ягод на кустах: ")
 list1 = {int(input(f"На кусте {i + 1}:")) for i in range(n)}
 list2 = list(list1)
-
 max_sum = 0
 temp_num = 0
 count = 0
